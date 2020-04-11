@@ -24,13 +24,11 @@ const Wrapper = styled.div`
   color: white;
   display: flex;
   flex-direction: row;
+  margin: none;
 `;
 
 const Header = styled.h2`
   padding: 1rem;
-  &:hover {
-    color: red;
-  }
 `;
 const List = styled.ul`
   width: 60%;
