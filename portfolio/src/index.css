@@ -22,3 +22,117 @@
     transform: translateY(-70px);
   }
 }
+
+/* Defaults */
+a:visited {
+  color: white;
+}
+
+/* Beginning navbar CSS */
+.nav-wrapper {
+  background: #141414;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-header {
+  font-family: 'Dancing Script', cursive;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  letter-spacing: 3px;
+}
+
+.nav-header:hover {
+  border-color: yellow;
+  color: yellow;
+  cursor: pointer;
+}
+
+.nav-link-wrapper {
+  display: flex;
+  width: 50%;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: yellow;
+  cursor: pointer;
+}
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-wrapper {
+  height: 30vh;
+}
+
+.header-title {
+  font-size: 1.3rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.header-desc {
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+span::before {
+  content: ' a web developer.';
+  animation: animate infinite 12s;
+}
+
+@keyframes animate {
+  25% {
+    content: ' a front-end developer.';
+  }
+
+  50% {
+    content: ' a back-end developer.';
+  }
+
+  80% {
+    content: ' learning and leveling up every day.';
+  }
+}
+/* Beginning of Projects CSS */
+.card-wrapper {
+  border: 3px solid red;
+}
+
+/* Beginning footer CSS */
+.footer {
+  background: #141414;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-header {
+  text-align: center;
+  padding: 0.8rem;
+}
+
+/* icons class */
+.fab {
+  margin: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
